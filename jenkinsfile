@@ -4,7 +4,6 @@ pipeline {
         stage("build"){
             steps{
                 echo'in this stage we will build the application' 
-                lsblk -f 
             }
         }
         stage("test"){
